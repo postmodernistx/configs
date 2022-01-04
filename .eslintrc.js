@@ -29,5 +29,10 @@ module.exports = {
         allowFirstLine: true,
       },
     }],
+    'vue/singleline-html-element-content-newline': ['off', {
+      ignoreWhenNoAttributes: true,
+      ignoreWhenEmpty: true,
+      ignores: ['pre', 'textarea'],
+    }],
   },
 };
