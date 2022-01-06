@@ -2,6 +2,12 @@
 node_modules
 /dist
 
+# Junk
+Desktop.ini
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
 
 # local env files
 .env.local
