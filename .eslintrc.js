@@ -27,14 +27,17 @@ module.exports = {
         template: 150,
       },
     ],
-    "vue/max-attributes-per-line": ["error", {
-      "singleline": {
-        "max": 1
-      },      
-      "multiline": {
-        "max": 1
-      }
-    }],
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: {
+          max: 3,
+        },
+        multiline: {
+          max: 3,
+        },
+      },
+    ],
     'vue/singleline-html-element-content-newline': ['off', {
       ignoreWhenNoAttributes: true,
       ignoreWhenEmpty: true,
