@@ -1,13 +1,16 @@
-.DS_Store
-node_modules
+# Generated files and folders
 /dist
+*.css.map
 
-# Junk
+# JS ecosystem
+node_modules
+
+# Operating System junk
 Desktop.ini
 Thumbs.db
 .Spotlight-V100
 .Trashes
-
+.DS_Store
 
 # local env files
 .env.local
