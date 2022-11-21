@@ -2,17 +2,18 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    es6: true,
+    es2021: true,
     node: true,
   },
+  // extends: 'airbnb-base',
   extends: ['plugin:vue/vue3-essential', 'eslint:recommended', 'plugin:prettier/recommended'],
   // extends: ['plugin:vue/vue3-recommended', '@vue/airbnb'],
   parserOptions: {
     parser: '@babel/eslint-parser',
   },
   rules: {
-    'curly': ['error', 'all'],
-    'indent': ['error', 2, { SwitchCase: 1 }],
+    curly: ['error', 'all'],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'max-len': ['error', { code: 120 }],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
