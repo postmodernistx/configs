@@ -17,6 +17,7 @@ Thumbs.db
 .DS_Store
 
 # local env files
+.npmrc
 .env.local
 .env.*.local
 
