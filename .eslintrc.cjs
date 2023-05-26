@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    node: true,
   },
   extends: [
     'plugin:vue/vue3-essential',
@@ -20,21 +21,26 @@ module.exports = {
     },
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: true,
   },
+  plugins: [
+    '@typescript-eslint',
+    'vue'
+  ],
   rules: {
     curly: ['error', 'all'],
+    semi: ['error', 'always'],
     indent: ['error', 2, { SwitchCase: 1 }],
     'max-len': ['error', { code: 120 }],
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-console': process.env.PROD ? 'warn' : 'off',
+    'no-debugger': process.env.PROD ? 'warn' : 'off',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
-    'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-    'no-unreachable': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-    'no-undef': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+    'no-unused-vars': process.env.PROD ? 'error' : 'warn',
+    'no-unreachable': process.env.PROD ? 'error' : 'warn',
+    'no-undef': process.env.PROD ? 'error' : 'warn',
+    '@typescript-eslint/semi': 'off'
   }
 }
