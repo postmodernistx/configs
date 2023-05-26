@@ -4,11 +4,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: [
+  'extends': [
     'plugin:vue/vue3-essential',
-    'standard-with-typescript'
+    'eslint:recommended',
+    '@vue/eslint-config-typescript',
+    '@vue/eslint-config-prettier/skip-formatting'
   ],
-  overrides: [
+  /*overrides: [
     {
       files: ['*.ts', '*.tsx'],
       extends: [
@@ -20,10 +22,11 @@ module.exports = {
       },
     },
   ],
-  parser: '@typescript-eslint/parser',
+  parser: '@typescript-eslint/parser',*/
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: true,
   },
   plugins: [
     '@typescript-eslint',
