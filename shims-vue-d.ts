@@ -6,5 +6,12 @@ declare module "*.vue" {
   export default component;
 }
 
+/*
+declare module '*.vue' {
+  import Vue from 'vue';
+  export default Vue;
+}
+*/
+
 //if you use env variables c:
 declare module "*/envs.ts";
