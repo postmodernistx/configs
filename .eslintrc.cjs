@@ -3,7 +3,10 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: 'standard-with-typescript',
+  extends: [
+    'plugin:vue/vue3-essential',
+    'standard-with-typescript'
+  ],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
