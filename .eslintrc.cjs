@@ -53,6 +53,6 @@ module.exports = {
     "block-spacing": "error",
     "brace-style": ["error", "1tbs", { "allowSingleLine": false}],
     "object-curly-spacing": ["error", "always"],
-    "comma-dangle": ["error", "always"]
+    "comma-dangle": ["error", "always-multiline"]
   }
 }
