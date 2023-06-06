@@ -36,6 +36,7 @@ module.exports = {
     curly: ['error', 'all'],
     semi: ['error', 'always'],
     indent: ['error', 2, { SwitchCase: 1 }],
+    quotes: ['error', 'single'],
     'max-len': ['error', { code: 120 }],
     'no-console': process.env.PROD ? 'warn' : 'off',
     'no-debugger': process.env.PROD ? 'warn' : 'off',
