@@ -45,14 +45,14 @@ module.exports = {
     'no-unreachable': process.env.PROD ? 'error' : 'warn',
     'no-undef': process.env.PROD ? 'error' : 'warn',
     '@typescript-eslint/semi': 'off',
-    "space-infix-ops": ["error", { "int32Hint": false }],
-    "key-spacing": ["error", { "afterColon": true, "beforeColon": false }],
-    "space-before-blocks": ["error", "always"],
-    "keyword-spacing": ["error", { "before": true }],
-    "arrow-spacing": ["error", { "before": true, "after": true }],
-    "block-spacing": "error",
-    "brace-style": ["error", "1tbs", { "allowSingleLine": false}],
-    "object-curly-spacing": ["error", "always"],
-    "comma-dangle": ["error", "always-multiline"]
+    'space-infix-ops': ['error', { 'int32Hint': false }],
+    'key-spacing': ['error', { 'afterColon': true, 'beforeColon': false }],
+    'space-before-blocks': ['error', 'always'],
+    'keyword-spacing': ['error', { 'before': true }],
+    'arrow-spacing': ['error', { 'before': true, 'after': true }],
+    'block-spacing': 'error',
+    'brace-style': ['error', '1tbs', { 'allowSingleLine': false}],
+    'object-curly-spacing': ['error', 'always'],
+    'comma-dangle': ['error', 'always-multiline']
   }
 }
