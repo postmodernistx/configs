@@ -1,3 +1,4 @@
+/* npm init @eslint/config */
 module.exports = {
   env: {
     browser: true,
