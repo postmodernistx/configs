@@ -1,3 +1,4 @@
+# Add this file to the folder .github/workflows for automatic deployment
 name: publish changes
 
 on:
