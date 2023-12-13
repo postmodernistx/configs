@@ -14,23 +14,13 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting'
   ],
-  /*overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-      ],
-      parserOptions: {
-        project: ['./tsconfig.json'],
-      },
-    },
-  ],
-  parser: '@typescript-eslint/parser',*/
+  'root': true,
+  // parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: true,
+    // project: ['tsconfig.json']
   },
   plugins: [
     '@typescript-eslint',
