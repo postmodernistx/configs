@@ -2,7 +2,6 @@
 dist
 dist-ssr
 *.css.map
-*.tsbuildinfo
 
 # Local files
 *.local
@@ -40,3 +39,9 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Coverage and testing
+coverage
+
+/cypress/videos/
+/cypress/screenshots/
