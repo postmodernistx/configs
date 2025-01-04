@@ -1,8 +1,11 @@
+// @see https://github.com/postmodernistx/configs/blob/main/eslint.config.js
+
 /*
 npm init @eslint/config
 npx eslint src/main.ts
 */
-module.exports = {
+
+/* module.exports = {
   env: {
     browser: true,
     es2021: true,
@@ -52,3 +55,4 @@ module.exports = {
     'space-infix-ops': ['error', { int32Hint: false }],
   },
 };
+*/
