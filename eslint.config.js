@@ -36,7 +36,7 @@ export default [
       '@stylistic/ts': stylisticTs,
     },
     rules: {
-      '@stylistic/array-bracket-newline': ['error', { minItems: 4 }],
+      '@stylistic/array-bracket-newline': ['error', { minItems: 4, multiline: true }],
       '@stylistic/array-bracket-spacing': ['error', 'never'],
       '@stylistic/array-element-newline': ['error', { consistent: true, multiline: true }],
       '@stylistic/arrow-parens': ['error', 'always'],
