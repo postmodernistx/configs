@@ -5,6 +5,25 @@ import pluginVue from 'eslint-plugin-vue';
 import stylistic from '@stylistic/eslint-plugin';
 import stylisticTs from '@stylistic/eslint-plugin-ts';
 
+/*
+Sample dependencies:
+
+"@stylistic/eslint-plugin": "^2.13.0",
+"@stylistic/eslint-plugin-ts": "^2.13.0",
+"@tsconfig/node22": "^22.0.0",
+"@types/node": "^22.10.2",
+"@vitejs/plugin-vue": "^5.2.1",
+"@vue/eslint-config-typescript": "^14.1.3",
+"@vue/tsconfig": "^0.7.0",
+"eslint": "^9.14.0",
+"eslint-plugin-vue": "^9.30.0",
+"npm-run-all2": "^7.0.2",
+"typescript": "~5.6.3",
+"vite": "^6.0.5",
+"vite-plugin-vue-devtools": "^7.6.8",
+"vue-tsc": "^2.1.10"
+*/
+
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
