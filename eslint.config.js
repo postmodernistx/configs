@@ -48,7 +48,7 @@ export default [
       '@stylistic/computed-property-spacing': ['error', 'never'],
       '@stylistic/curly-newline': ['error', 'always'],
       '@stylistic/dot-location': ['error', 'property'],
-      '@stylistic/function-paren-newline': ['error', { minItems: 3 }],
+      '@stylistic/function-paren-newline': ['error', { minItems: 4 }],
       '@stylistic/indent': ['error', 2],
       '@stylistic/key-spacing': ['error', { afterColon: true, beforeColon: false }],
       '@stylistic/keyword-spacing': ['error', { before: true }],
