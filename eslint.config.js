@@ -3,13 +3,11 @@ import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import pluginVue from 'eslint-plugin-vue';
 import stylistic from '@stylistic/eslint-plugin';
-import stylisticTs from '@stylistic/eslint-plugin-ts';
 
 /*
 Sample dependencies:
 
 "@stylistic/eslint-plugin": "^2.13.0",
-"@stylistic/eslint-plugin-ts": "^2.13.0",
 "@tsconfig/node22": "^22.0.0",
 "@types/node": "^22.10.2",
 "@vitejs/plugin-vue": "^5.2.1",
@@ -66,7 +64,7 @@ export default [
       '@stylistic/no-multi-spaces': 'error',
       '@stylistic/no-multiple-empty-lines': 'error',
       '@stylistic/no-trailing-spaces': 'error',
-      // '@stylistic/object-curly-newline': ['error', { 'multiline': true, 'minProperties': 3 }],
+      '@stylistic/object-curly-newline': ['error', { multiline: true, minProperties: 3 }],
       '@stylistic/object-curly-spacing': ['error', 'always'],
       '@stylistic/operator-linebreak': ['error', 'after'],
       '@stylistic/padded-blocks': ['error', 'never'],
@@ -84,7 +82,7 @@ export default [
       '@stylistic/spaced-comment': ['error', 'always'],
       '@stylistic/switch-colon-spacing': 'error',
       '@stylistic/template-curly-spacing': 'error',
-      '@stylistic/ts/type-annotation-spacing': 'error',
+      '@stylistic/type-annotation-spacing': 'error',
       '@stylistic/type-generic-spacing': ['error'],
       '@stylistic/type-named-tuple-spacing': ['error'],
       'import/no-absolute-path': 'off',
