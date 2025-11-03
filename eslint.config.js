@@ -84,6 +84,7 @@ export default [
       '@stylistic/type-annotation-spacing': 'error',
       '@stylistic/type-generic-spacing': ['error'],
       '@stylistic/type-named-tuple-spacing': ['error'],
+      'curly': ['error', 'all'],
       'import/no-absolute-path': 'off',
       'no-console': 'warn',
       'no-debugger': 'warn',
