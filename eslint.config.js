@@ -31,7 +31,6 @@ export default [
   {
     plugins: {
       '@stylistic': stylistic,
-      '@stylistic/ts': stylisticTs,
     },
     rules: {
       '@stylistic/array-bracket-newline': ['error', { minItems: 4, multiline: true }],
