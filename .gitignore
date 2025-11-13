@@ -2,6 +2,7 @@
 dist
 dist-ssr
 *.css.map
+.eslintcache
 
 # Local files
 *.local
