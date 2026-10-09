@@ -55,3 +55,7 @@ coverage
 # .NET
 appsettings.Development.json
 launchSettings.json
+
+# Vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
